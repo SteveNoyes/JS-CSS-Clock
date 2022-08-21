@@ -7,8 +7,10 @@ const lazyClock = new Date();
 const digitalDisplay = document.querySelector('.digital');
 digitalDisplay.innerHTML = lazyClock;
 
+
 // function to set hands to each respective time signiture
 function setDate() {
+  
   const now = new Date();
   // setting the seconds hand
   const seconds = now.getSeconds();
