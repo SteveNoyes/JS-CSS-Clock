@@ -10,7 +10,7 @@ digitalDisplay.innerHTML = lazyClock;
 
 // function to set hands to each respective time signiture
 function setDate() {
-  
+
   const now = new Date();
   // setting the seconds hand
   const seconds = now.getSeconds();
@@ -26,8 +26,11 @@ function setDate() {
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
 
   // console logs tests to show each seconds, minutes and hours instance
+
   // console.log(seconds);
+
   // console.log(minutes);
+
   // console.log(hours);
 }
 // set to 1000 milliseconds
